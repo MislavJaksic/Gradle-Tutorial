@@ -3,3 +3,4 @@
 About:
 * build scans
 * tasks
+* plugins

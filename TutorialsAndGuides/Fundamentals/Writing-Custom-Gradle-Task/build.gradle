@@ -5,7 +5,7 @@
  * Learn how to create Gradle builds at https://guides.gradle.org/creating-new-gradle-builds/
  */
 
-class Greeting extends DefaultTask {
+class Greeting extends DefaultTask {  // custom task type
    String message
    String recipient
 
