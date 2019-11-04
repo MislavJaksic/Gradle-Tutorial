@@ -1,0 +1,2 @@
+hello world!
+i'll be coped by a gradle task
