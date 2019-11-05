@@ -38,12 +38,3 @@ $: jar tf build/libs/demo.jar
 # Note: see the HTML report in `build/reports/tests/test/index.html`
 # Note: see the XML report in `build/reports/test-results/test/TEST-**.xml`
 ```
-
-### Customize the library JAR
-
-You can set a version and add data to MANIFEST:MF.  
-
-```
-$: ./gradlew jar
-$: jar xf build/libs/demo-0.1.0.jar MANIFEST.MF  # extract MANIFEST.MF
-```

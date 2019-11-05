@@ -18,26 +18,11 @@ $: gradle init  # ->
 
 ### Review the generated project files
 
-```
-build.gradle  # project config
-settings.gradle  # build config
-```
+Same as Build-Java-App.  
 
 ### Execute the build
 
-```
-$: ./gradlew build  # compiles, runs tests, generates a report
-```
-
-```
-# Note: see the packaged *.jar
-$: jar tf build/libs/demo.jar
-```
-
-```
-# Note: see the HTML report in `build/reports/tests/test/index.html`
-# Note: see the XML report in `build/reports/test-results/test/TEST-**.xml`
-```
+Same as Build-Java-App.  
 
 ### Customize the library JAR
 
@@ -45,7 +30,7 @@ You can set a version and add data to MANIFEST:MF.
 
 ```
 $: ./gradlew jar
-$: jar xf build/libs/demo-0.1.0.jar MANIFEST.MF  # extract MANIFEST.MF
+$: jar xf build/libs/demo-0.1.0.jar META-INF/MANIFEST.MF  # extract MANIFEST.MF
 ```
 
 ### Adding API documentation
